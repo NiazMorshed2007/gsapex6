@@ -1,0 +1,10 @@
+@mixin flex($d) {
+  display: flex;
+  flex-direction: $d;
+}
+
+@mixin img($url) {
+  transform: scale(1.1);
+  background: url($url) 50% 50% no-repeat;
+  background-size: cover;
+}
